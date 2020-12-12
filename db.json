@@ -1,0 +1,54 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "PPinza industrial",
+      "precio": "3000"
+    },
+    {
+      "id": 2,
+      "nombre": "Llave 3/8",
+      "precio": "1"
+    },
+    {
+      "nombre": "Pinza Hombresolo",
+      "precio": "300",
+      "id": 3
+    },
+    {
+      "nombre": "Trquel de aluminio",
+      "precio": "200",
+      "id": 4
+    },
+    {
+      "nombre": "Mandril de taladro fijo",
+      "precio": "200",
+      "id": 5
+    },
+    {
+      "nombre": "trompo",
+      "precio": 300,
+      "id": 6
+    },
+    {
+      "nombre": "asdasd",
+      "precio": 200,
+      "id": 7
+    },
+    {
+      "nombre": "asdasdasd",
+      "precio": 200,
+      "id": 8
+    },
+    {
+      "nombre": "alicates",
+      "precio": 100,
+      "id": 9
+    },
+    {
+      "nombre": "guantes",
+      "precio": 100,
+      "id": 10
+    }
+  ]
+}

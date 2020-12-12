@@ -1,3 +1,4 @@
+import React from 'react';
 const EditarProducto = () => {
     return ( 
         <div className="row justify-content-center">
