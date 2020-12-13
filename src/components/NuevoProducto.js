@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector}from 'react-redux';
 
 // Redux actions
-import { crearNuevoProductoAction } from '../actions/productActions';
+import { crearNuevoProductoAction } from '../actions/productoActions';
 
 const NuevoProducto = ({history}) => {
 
