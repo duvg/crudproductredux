@@ -12,6 +12,7 @@ const Productos = () => {
         // Consulta a la API
         const cargarProductos = () => dispatch( obtenerProductosAction() );
         cargarProductos();
+        // eslint-disable-next-line
     }, []);
 
     // Obtener el state
@@ -37,8 +38,12 @@ const Productos = () => {
                 </thead>
                 
                 <tbody>
-                    { productos === undefined || productos.length === 0 ? 'No hay Productos' : (
-                        productos.map(producto => (
+                    { 
+                        productos === undefined || 
+                        productos.length === 0 ? 
+                        <tr><td colSpan="3" className="text-center">No hay Productos</td></tr> : 
+                        (
+                            productos.map(producto => (
                             <Producto
                                 key={producto.id}
                                 producto={producto}
